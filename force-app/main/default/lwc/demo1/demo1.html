@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Data Display Using Wire">
+        <template if:true={tableData}>
+            <lightning-datatable 
+            key-field="Id" 
+            data={tableData} 
+            columns={columns}>
+            </lightning-datatable>
+        </template>
+    </lightning-card>
+</template>

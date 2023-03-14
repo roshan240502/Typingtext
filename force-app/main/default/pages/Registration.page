@@ -1,0 +1,10 @@
+<apex:page controller="Registration">
+    <apex:form>
+        <apex:inputText label="TravellersName" value="{!travellersName}"/>
+        <apex:inputText label="TravllersAge" value="{!travllersAge}"/>
+        <apex:inputText label="Source" value="{!source}"/>
+        <apex:inputText label="Destination" value="{!destination}"/>
+        <apex:inputText label="StartingDate" value="{!startingDate}"/>
+        <apex:commandButton value="Submit" action="{!save}"/>
+    </apex:form>
+</apex:page>
